@@ -55,52 +55,55 @@
 
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
-        <h2>Mi Vivero</h2>
-      </div>
-    </section>
-
-    <section class="inner-page">
-      <div class="container">
-        <h2>Nuestro Vivero</h2>
-        <p>Bienvenido a nuestro vivero. Aquí encontrarás una amplia variedad de plantas y productos relacionados con la jardinería.</p>
-      </div>
-    </section>
-    
-    <section class="inner-page">
-      <div class="container">
-        <h2>Nuestros Productos</h2>
-      </div>
-    </section>
-
-    <section class="inner-page">
-      <div class="container">
-        <h3>Plantas de interior</h3>
-        <p>Estas plantas son seleccionadas por su capacidad para adaptarse a las condiciones de iluminación, temperatura y humedad típicas de los interiores, donde la luz natural puede ser limitada.</p>
-        <h3>Plantas de exterior</h3>
-        <p>Estas plantas están adaptadas para crecer y prosperar bajo las condiciones ambientales del entorno exterior.</p>
+        <h2>Contacto Mi Vivero</h2>
       </div>
     </section>
 
     <section class="inner-page">
       <div class="container">
         <h2>Contacto</h2>
-        <p>Para contactarnos, puedes utilizar la siguiente información:</p>
-        <ul>
-          <li>Teléfono: 11-4223-5826</li>
-          <li>Email: info@mivivero.com</li>
-          <li>Dirección: Berazategui, Buenos Aires, Argentina</li>
-        </ul>
+    <p>Para contactarnos, puedes utilizar la siguiente información:</p>
+    
+    <ul>
+      <li>
+        <h3>Teléfono</h3>
+        <p>11-4223-5826</p>
+      </li>
+      <li>
+        <h3>Email</h3>
+        <p>info@mivivero.com</p>
+      </li>
+      <li>
+        <h3>Dirección</h3>
+        <p>Berazategui, Buenos Aires, Argentina</p>
+      </li>
+    </ul>
       </div>
     </section>
-
+    
     <section class="inner-page">
       <div class="container">
-        <h2>Ayuda</h2>
-      <p>Si necesitas ayuda, por favor contáctanos a través de los siguientes medios:</p>
-      <ul>
-        <li>Teléfono: 11-4223-5826</li>
-        <li>Email: ayuda@mivivero.com</li>
-      </ul>
+        <h3>Formulario de contacto</h3>
+    <form action="../assets/form.txt" method="POST">
+      <div>
+        <label for="nombre y apellido">Nombre y Apellido:</label>
+      </div>
+      <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="EJ: juan Perez " required>
+      
+      <div>
+        <label for="email">Email:</label>
+      </div>
+      <input type="email" id="email" name="email" placeholder=" EJ: juanperez@gmail.com" required>
+      
+      <div>
+        <label for="mensaje">Mensaje:</label>
+      </div>
+      <textarea id="mensaje" name="mensaje" rows="4" placeholder="Quiero saber mas sobre..." required></textarea>
+      
+      <div>
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
       </div>
     </section>
 
